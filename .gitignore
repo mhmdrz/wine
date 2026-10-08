@@ -1,0 +1,16 @@
+# Build artifacts (never track generated/compiled output)
+config.log
+config.status
+compile_commands.json
+Makefile
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.res
+*.fake
+*.mo
+*.tlb
+*/x86_64-windows/
+*/i386-windows/
